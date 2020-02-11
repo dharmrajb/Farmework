@@ -9,7 +9,7 @@ public class ReadConfig {
 
 	public ReadConfig() {
 
-		//This is simple comment
+		//This is simple comment by dharmraj
 		File src = new File("./Configuration/Config.properties");
 		try {
 			
