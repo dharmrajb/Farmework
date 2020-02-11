@@ -9,6 +9,7 @@ public class ReadConfig {
 
 	public ReadConfig() {
 
+		//This is simple comment
 		File src = new File("./Configuration/Config.properties");
 		try {
 			
