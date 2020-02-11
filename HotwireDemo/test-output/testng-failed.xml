@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.HotwireDemo.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="com.HotwireDemo.testCases.TC_FindVacationTest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="find_VacationTest_001"/>
+          <include name="find_VacationTest_002"/>
+        </methods>
+      </class> <!-- com.HotwireDemo.testCases.TC_FindVacationTest_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
