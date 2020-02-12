@@ -30,7 +30,7 @@ public class BaseClass {
 
 	public static Logger logger;
 	
-//this is driver launch code.
+//this is driver launch code...
 	
 	@Parameters("browserType")
 	@BeforeClass
