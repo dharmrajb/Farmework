@@ -29,7 +29,9 @@ public class BaseClass {
 	public WebDriver driver=null;
 
 	public static Logger logger;
-
+	
+//this is driver launch code
+	
 	@Parameters("browserType")
 	@BeforeClass
 	public void setup(@Optional String browser) {
